@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/kim/Desktop/openSW/SimpleIR/jsoup-1.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kim/Desktop/openSW/SimpleIR/kkma-2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
