@@ -4,7 +4,7 @@
 
 **kuir.java**가 프로젝트의 메인 소스 코드로 사용되고,
 
-주차별로 생성된 **makeCollection.java**, **makeKeyword.java**, **indexer.java** 파일을 메인 함수의 인자값(String[] args)에 따라 객체를 생성하고 함수를 실행합니다.
+주차별로 생성된 **makeCollection.java**, **makeKeyword.java**, **indexer.java**, **searcher.java** 파일을 메인 함수의 인자값(String[] args)에 따라 객체를 생성하고 함수를 실행합니다.
 
 ## 파일 구조
 
@@ -19,7 +19,8 @@
         ├── kuir.java
         ├── makeCollection.java
         ├── makeKeyword.java
-        └── indexer.java
+        ├── indexer.java
+        └── searcher.java
 ``` 
 
 ## 인코딩
@@ -71,3 +72,4 @@ ex) `java -cp ./jars/jsoup-1.13.1.jar;./jars/kkma-2.1.jar;bin scripts.kuir -c da
 2주차 : kuir -c ./data/  
 3주차 : kuir -k ./collection.xml  
 4주차 : kuir -i ./index.xml  
+5주차 : kuir -s ./index.post -q "질의어"  
