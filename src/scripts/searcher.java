@@ -22,7 +22,7 @@ public class searcher {
 		this.input_file = file;
 	}
 
-	void CalcSim(String query) throws Exception {
+	void InnerProduct(String query) throws Exception {
 
 		// index.post 불러오기
 		FileInputStream InputfileStream = new FileInputStream(input_file);
