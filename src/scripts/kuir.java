@@ -20,6 +20,9 @@ public class kuir {
 		} else if (command.equals("-s")) {
 			searcher searcher = new searcher(path);
 			searcher.CalcSim(args[3]);
+		} else if (command.equals("-m")) {
+			MidTerm midterm = new MidTerm(path);
+			midterm.showSnippet(args[3]);
 		}
 	}
 }
